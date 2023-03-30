@@ -49,7 +49,6 @@ namespace loginsenha
             this.label1.Size = new System.Drawing.Size(171, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Sistema de Login";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -80,7 +79,6 @@ namespace loginsenha
             this.textBoxLogin.Name = "textBoxLogin";
             this.textBoxLogin.Size = new System.Drawing.Size(190, 17);
             this.textBoxLogin.TabIndex = 3;
-            this.textBoxLogin.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBoxSenha
             // 
@@ -142,7 +140,7 @@ namespace loginsenha
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Sistema login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

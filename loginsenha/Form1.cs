@@ -47,15 +47,5 @@ namespace loginsenha
             //throw new NotImplementedException(); código criado pois apenas vamos chamar o novo formulário e instâncialo -
             Application.Run(new Formlogin());
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
